@@ -16,7 +16,7 @@ const StopWatch = () => {
     return () => clearInterval(timer);
   }, [isRunning]);
 
-  //formating timer difning hours minute seconds and miliseconds
+
   const formatTime = (time) => {
     const hours = Math.floor(time / 360000);
     const minutes = Math.floor((time % 360000) / 6000);
